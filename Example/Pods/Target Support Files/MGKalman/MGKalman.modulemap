@@ -1,0 +1,6 @@
+framework module MGKalman {
+  umbrella header "MGKalman-umbrella.h"
+
+  export *
+  module * { export * }
+}

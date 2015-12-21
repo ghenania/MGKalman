@@ -9,24 +9,22 @@
 Pod::Spec.new do |s|
   s.name             = "MGKalman"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MGKalman."
+  s.summary          = "An efficient and simple implementation of the Kalman filter in Objective C"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "MGKalman is an efficient and simple implementation of the Kalman filter in Objective C."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MGKalman"
+  s.homepage         = "https://github.com/ghenania/MGKalman"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Mohamed GHENANIA" => "mohamed.ghenania@intersection-lab.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MGKalman.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ghenania/MGKalman.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -34,7 +32,7 @@ Pod::Spec.new do |s|
     'MGKalman' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'Accelerate'
+  #s.dependency  'MGMatrix', '~> 0.2.0'
 end

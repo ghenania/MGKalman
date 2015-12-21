@@ -1,0 +1,14 @@
+PODS:
+  - MGKalman (0.1.0)
+
+DEPENDENCIES:
+  - MGKalman (from `../`)
+
+EXTERNAL SOURCES:
+  MGKalman:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGKalman: 72a5ad25be988bda6becfb03594c4083f6865405
+
+COCOAPODS: 0.38.2
