@@ -7,189 +7,221 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01524E2BE4CAB4F1FA2AA8A72C4B4116 /* Pods-MGKalman_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6875BC1515951BFB8804A00660806B3E /* Pods-MGKalman_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08FDD14A6D665EB5CDAE3298A157476F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CA4CBF45EEFB3C158C4BDFB1D258AD /* Foundation.framework */; };
-		0C973FC41B0AE9DC3ADD75FC52DE6B86 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 470ACDEF6FC4D2AEFF5DE717DD5C5AC9 /* ReplaceMe.m */; };
-		0F501AA6913D2959AA694F14037A9125 /* Pods-MGKalman_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D4203E4ADE98C033822D32022A05D /* Pods-MGKalman_Tests-dummy.m */; };
-		1FB050A3C1A51BFD273318DA1A019496 /* Pods-MGKalman_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9879DCC5C4D06772DD8F3A8670C67FA1 /* Pods-MGKalman_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95A0C2EE0A6E946E8B39B89895885EF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CA4CBF45EEFB3C158C4BDFB1D258AD /* Foundation.framework */; };
-		AEA34324F3C7CCE2DDC49A62E4CDE2F4 /* Pods-MGKalman_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD4E7861153BF7F359351A90488820 /* Pods-MGKalman_Example-dummy.m */; };
-		B815E3BB9BCCFA0A6FAFD89FA2EAB80E /* MGKalman.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0831529C7CBB62CF7A6B0EC2971B4CC2 /* MGKalman.bundle */; };
-		BD44A0201C494BDD5DC13BAD2B844073 /* MGKalman-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E41C688EB2C1EC8FE355FC284FBFCD /* MGKalman-dummy.m */; };
-		E2583D9EE7690009523810ADD6FF2BD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CA4CBF45EEFB3C158C4BDFB1D258AD /* Foundation.framework */; };
-		E98A08A28FC50D4DCE8C6AE0AA036D7C /* MGKalman-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCC941129966CB389CB54B2A7D7791C /* MGKalman-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06900E2291F6FF54A738C2C74AD14DB4 /* MGMatrix.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E3DC50A0D77BD5B1CA45DF44ABCDD3A /* MGMatrix.bundle */; };
+		092B0D6B90716C56C5CD9ACD5362AE9E /* MGKalman.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA395D897A8CCC0E315B8C539149B6 /* MGKalman.m */; };
+		146660721D5F83D49460840DBCEEDA14 /* MGMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4568F2D5FEC4321DB9B2C1521E00FD7B /* MGMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19370716CA4DF642826640034BCCE5C6 /* MGMatrix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 892BC394BC90A1243D3D0C0AC92717B5 /* MGMatrix-dummy.m */; };
+		33D0F3E8A5D2F745447C23B212E27C53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4E7576470528FCB0D6A99C76D32DEB /* Foundation.framework */; };
+		366DAD5629DAE27E2C351040888225DF /* MGKalman.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0B4158437B09353E199784B7BEC696 /* MGKalman.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAF4279EB9E09B38CB6FE777FA3C467 /* Pods-MGKalman_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A35C205910B7EA7BAD8DF48E98F92627 /* Pods-MGKalman_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513A9E161207BC069F25D8ED761A2316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4E7576470528FCB0D6A99C76D32DEB /* Foundation.framework */; };
+		64A90CD0B4132F36F72D90902116F9A9 /* MGKalman.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 729E5D45F9E9B9AEC9615C0136EAE7E8 /* MGKalman.bundle */; };
+		74D268E7A785D2384CA6E518B1DB2581 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4E7576470528FCB0D6A99C76D32DEB /* Foundation.framework */; };
+		848E7F58C03A0E30CA125BB83DC62C64 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2517DD87AE13F584410AA1DD81901E /* Accelerate.framework */; };
+		9BCE8FA497073B94A81EDA475A6EB682 /* MGMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B7550E3D2788710E43A0D9A6A67A9 /* MGMatrix.framework */; };
+		A1D71F644880EF948209013C64F2549B /* MGKalman-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBABBC6CFB159099DAD34E44D2A91A0 /* MGKalman-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6B0463B6AF006AB138BC7AF8C91898E /* MGMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = F583ECD5770EFF57D75AB2B5CE4F8D62 /* MGMatrix.m */; };
+		A8ED76E33E8589F6168D30AC067C9A7A /* Pods-MGKalman_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E628BF6566E0B89E56C3B3870AFF805 /* Pods-MGKalman_Example-dummy.m */; };
+		B26B83AFDB46FB669787454A7C9409C7 /* MGKalman-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F23E0EC2CBE2472D90EFB75BDFA9AA96 /* MGKalman-dummy.m */; };
+		C3B4CDA956A7F39CEB3D3F0F43F32E5A /* MGMatrix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A47B18E336AEA71F321DC45121044EF1 /* MGMatrix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F311624F0EF3E1FA9325188B23B3BC30 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2517DD87AE13F584410AA1DD81901E /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E0C326BBBD1606893FF448D1362796E /* PBXContainerItemProxy */ = {
+		13E4E1A981A5DC87D134F4683B41B642 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 140267A2C687491582C9ED738D94C59C;
-			remoteInfo = MGKalman;
+			remoteGlobalIDString = AC92C4ADF20E5C4AD0A799884ABFC0A7;
+			remoteInfo = MGMatrix;
 		};
-		8518D9BC2AF0BFF2C72F6235735BF352 /* PBXContainerItemProxy */ = {
+		1DFB1438DF07DA4FCD9CCF9496777FE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5442E0FFD07ACC65D0109BE82F654B0C;
+			remoteGlobalIDString = F06F4F65A1462029BB7274A8B8BC6511;
 			remoteInfo = "MGKalman-MGKalman";
 		};
-		D58F2E3829E457732E5AC2EDF34092B5 /* PBXContainerItemProxy */ = {
+		3B11567AD8819F9C911D6628EB7C6410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 140267A2C687491582C9ED738D94C59C;
+			remoteGlobalIDString = AC92C4ADF20E5C4AD0A799884ABFC0A7;
+			remoteInfo = MGMatrix;
+		};
+		6F177BF3CE3006722313AFD58EE0B171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CC22B3F81ABC8F74443AB87F14E2E6;
 			remoteInfo = MGKalman;
+		};
+		FB00D55A64E7726028B2E5C26478B0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED8588173ED52DB25C3518A280BBFDE;
+			remoteInfo = "MGMatrix-MGMatrix";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04DA31C7339D6027DD4699ACFF432AA8 /* MGKalman.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGKalman.modulemap; sourceTree = "<group>"; };
-		0831529C7CBB62CF7A6B0EC2971B4CC2 /* MGKalman.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGKalman.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B657D476E3727397E47D6BCD1FBC8EB /* Pods-MGKalman_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGKalman_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2245F283A3CB909A690CB920FF08BBF3 /* Pods-MGKalman_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGKalman_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2BE802E09EBB8BF7C3DA4706F737BEA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D705DE794CC247388A74064E0650F21 /* Pods-MGKalman_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MGKalman_Tests.modulemap"; sourceTree = "<group>"; };
-		44F06083915369E583044901D15AC67F /* Pods-MGKalman_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGKalman_Example.release.xcconfig"; sourceTree = "<group>"; };
-		470ACDEF6FC4D2AEFF5DE717DD5C5AC9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		575B68759CE8DD71D7742DF8F6165C80 /* MGKalman-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MGKalman-Private.xcconfig"; sourceTree = "<group>"; };
-		5904686526972540D6668EA961C8D78A /* Pods-MGKalman_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGKalman_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5D53EDAE55660293BC6E88AC71566B40 /* Pods-MGKalman_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MGKalman_Example.modulemap"; sourceTree = "<group>"; };
-		5FAD4E7861153BF7F359351A90488820 /* Pods-MGKalman_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGKalman_Example-dummy.m"; sourceTree = "<group>"; };
-		64E41C688EB2C1EC8FE355FC284FBFCD /* MGKalman-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGKalman-dummy.m"; sourceTree = "<group>"; };
-		672D93101DD14D242DFF7A36CAF51FD7 /* MGKalman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGKalman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6875BC1515951BFB8804A00660806B3E /* Pods-MGKalman_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGKalman_Example-umbrella.h"; sourceTree = "<group>"; };
-		76478BFA5BB73B3026A7E96F38435306 /* Pods-MGKalman_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGKalman_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7A816E83EBB012D741072C7C0468A3ED /* Pods-MGKalman_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGKalman_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E48F43A26F9726AC9E154317931E0BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94E28C4BF270EF5279014798F57A5088 /* Pods-MGKalman_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGKalman_Tests-resources.sh"; sourceTree = "<group>"; };
-		9879DCC5C4D06772DD8F3A8670C67FA1 /* Pods-MGKalman_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGKalman_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9BCC941129966CB389CB54B2A7D7791C /* MGKalman-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGKalman-umbrella.h"; sourceTree = "<group>"; };
-		A01412244083B8537A9EC19CB23DD9BB /* Pods_MGKalman_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGKalman_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB999B129C4CF780C56BA8F664584491 /* Pods-MGKalman_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGKalman_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		13D8EF80431E48F3A393E2CD9290DEB4 /* MGMatrix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGMatrix-prefix.pch"; sourceTree = "<group>"; };
+		1E628BF6566E0B89E56C3B3870AFF805 /* Pods-MGKalman_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGKalman_Example-dummy.m"; sourceTree = "<group>"; };
+		21EB2B0E5DA5E01A6FEEA0C187E9FA2F /* MGMatrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGMatrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3373CAFB7330F5CFF35BCF1F9D933541 /* Pods-MGKalman_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGKalman_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		382A72A65F7C70D57ECE50CA7C7C634D /* MGKalman.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGKalman.modulemap; sourceTree = "<group>"; };
+		3E2664F5840D5EB6E095BB27928D6799 /* MGKalman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGKalman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F888CC762D8C8D0136944400B76C478 /* MGMatrix.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGMatrix.xcconfig; sourceTree = "<group>"; };
+		43166806EE145A6FF7FC0FE1F1022BC7 /* MGKalman.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGKalman.xcconfig; sourceTree = "<group>"; };
+		4568F2D5FEC4321DB9B2C1521E00FD7B /* MGMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGMatrix.h; path = Pod/Classes/MGMatrix.h; sourceTree = "<group>"; };
+		4A9F1F6ED699A548815FD9DFFB29D822 /* Pods-MGKalman_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGKalman_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5E3DC50A0D77BD5B1CA45DF44ABCDD3A /* MGMatrix.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGMatrix.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		601BB2E62E10783A4F57FB949A5C3789 /* Pods-MGKalman_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGKalman_Example.release.xcconfig"; sourceTree = "<group>"; };
+		62EA395D897A8CCC0E315B8C539149B6 /* MGKalman.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGKalman.m; sourceTree = "<group>"; };
+		714426413BA7A117A70A0D7C457197BD /* Pods-MGKalman_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGKalman_Example-resources.sh"; sourceTree = "<group>"; };
+		729E5D45F9E9B9AEC9615C0136EAE7E8 /* MGKalman.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGKalman.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		839B7550E3D2788710E43A0D9A6A67A9 /* MGMatrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGMatrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		892BC394BC90A1243D3D0C0AC92717B5 /* MGMatrix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGMatrix-dummy.m"; sourceTree = "<group>"; };
+		8B0B4158437B09353E199784B7BEC696 /* MGKalman.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGKalman.h; sourceTree = "<group>"; };
+		9D2517DD87AE13F584410AA1DD81901E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		A150EA4F4BF1C46C740224619AFA4B44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35C205910B7EA7BAD8DF48E98F92627 /* Pods-MGKalman_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGKalman_Example-umbrella.h"; sourceTree = "<group>"; };
+		A40726AE6F4CE49E3D8033CE50BE2372 /* MGMatrix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGMatrix.modulemap; sourceTree = "<group>"; };
+		A47B18E336AEA71F321DC45121044EF1 /* MGMatrix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGMatrix-umbrella.h"; sourceTree = "<group>"; };
+		A5385255676ADB6C7F2E8F565CD8F593 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBABBC6CFB159099DAD34E44D2A91A0 /* MGKalman-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGKalman-umbrella.h"; sourceTree = "<group>"; };
+		ADB85ED2B4C00FCA351D0220D0D84A67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08A7A26CE5DB567920ACA23864238D3 /* Pods_MGKalman_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGKalman_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61CDEE23C0AD6AEC2B71D8780ABD452 /* MGKalman-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGKalman-prefix.pch"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C08D4203E4ADE98C033822D32022A05D /* Pods-MGKalman_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGKalman_Tests-dummy.m"; sourceTree = "<group>"; };
-		C4F99B4A9E5B2049DFE062E1876E64B7 /* Pods-MGKalman_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGKalman_Example-resources.sh"; sourceTree = "<group>"; };
-		C57DA2BA997633371F44CC63AB24B3CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C805BD2F4776CDA4DE2C57691E7A14AD /* Pods_MGKalman_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGKalman_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBE49E2AF23BABDE89EF5C8559BDB435 /* Pods-MGKalman_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGKalman_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CFE8CEB7092B5C81D7002C6922FE11DD /* MGKalman.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGKalman.xcconfig; sourceTree = "<group>"; };
-		D1CA4CBF45EEFB3C158C4BDFB1D258AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8A7F0DE97D1F75CFD6CFC9CC27109BE /* MGKalman-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGKalman-prefix.pch"; sourceTree = "<group>"; };
-		E79910DC6D15F8F1DE5E7356F2243408 /* Pods-MGKalman_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGKalman_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EE3408FC65AD995697B0F967687E76BB /* Pods-MGKalman_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGKalman_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9B6F0E762DF60BD6F5D4A40ED13552 /* Pods-MGKalman_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGKalman_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA1842CC5D9CB93974472D0A0997F266 /* Pods-MGKalman_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MGKalman_Example.modulemap"; sourceTree = "<group>"; };
+		EC4E7576470528FCB0D6A99C76D32DEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F23E0EC2CBE2472D90EFB75BDFA9AA96 /* MGKalman-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGKalman-dummy.m"; sourceTree = "<group>"; };
+		F583ECD5770EFF57D75AB2B5CE4F8D62 /* MGMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGMatrix.m; path = Pod/Classes/MGMatrix.m; sourceTree = "<group>"; };
+		F9CB021908F228761B05A1BFE470FAD5 /* Pods-MGKalman_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGKalman_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66B06003116F934E4B11AEC691B32476 /* Frameworks */ = {
+		090E6001ACF2160AD24D0775C2FBFD84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08FDD14A6D665EB5CDAE3298A157476F /* Foundation.framework in Frameworks */,
+				F311624F0EF3E1FA9325188B23B3BC30 /* Accelerate.framework in Frameworks */,
+				33D0F3E8A5D2F745447C23B212E27C53 /* Foundation.framework in Frameworks */,
+				9BCE8FA497073B94A81EDA475A6EB682 /* MGMatrix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8339C17D5263DFDE6CEB8248EC7B1176 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95A0C2EE0A6E946E8B39B89895885EF2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FFFC95C39A7BB428B399F3221560E14 /* Frameworks */ = {
+		15D8AF3754B3BA30E2519826C38D0671 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B8949278A3A01E80B445701D82B5AE2 /* Frameworks */ = {
+		28E0F2A1620275F76E9DCF227F6818AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2583D9EE7690009523810ADD6FF2BD4 /* Foundation.framework in Frameworks */,
+				74D268E7A785D2384CA6E518B1DB2581 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0AE3A30CCD10B4301F8EBAD04718AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E7F58C03A0E30CA125BB83DC62C64 /* Accelerate.framework in Frameworks */,
+				513A9E161207BC069F25D8ED761A2316 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4273218A7F5DA47B31793224188E26A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E1CBDD1AAF3F7F90C00C3926B0AFFB2 /* Targets Support Files */ = {
+		0E00EFD2FC7E88BC3F35FD8927C63B47 /* Pods-MGKalman_Example */ = {
 			isa = PBXGroup;
 			children = (
-				58C56D9A21FA0CA0E93DCF429757E1B3 /* Pods-MGKalman_Example */,
-				28791374A8F51433D76A17EC16BF0E20 /* Pods-MGKalman_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		28791374A8F51433D76A17EC16BF0E20 /* Pods-MGKalman_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2BE802E09EBB8BF7C3DA4706F737BEA7 /* Info.plist */,
-				3D705DE794CC247388A74064E0650F21 /* Pods-MGKalman_Tests.modulemap */,
-				7A816E83EBB012D741072C7C0468A3ED /* Pods-MGKalman_Tests-acknowledgements.markdown */,
-				CBE49E2AF23BABDE89EF5C8559BDB435 /* Pods-MGKalman_Tests-acknowledgements.plist */,
-				C08D4203E4ADE98C033822D32022A05D /* Pods-MGKalman_Tests-dummy.m */,
-				1B657D476E3727397E47D6BCD1FBC8EB /* Pods-MGKalman_Tests-frameworks.sh */,
-				94E28C4BF270EF5279014798F57A5088 /* Pods-MGKalman_Tests-resources.sh */,
-				9879DCC5C4D06772DD8F3A8670C67FA1 /* Pods-MGKalman_Tests-umbrella.h */,
-				EE3408FC65AD995697B0F967687E76BB /* Pods-MGKalman_Tests.debug.xcconfig */,
-				5904686526972540D6668EA961C8D78A /* Pods-MGKalman_Tests.release.xcconfig */,
-			);
-			name = "Pods-MGKalman_Tests";
-			path = "Target Support Files/Pods-MGKalman_Tests";
-			sourceTree = "<group>";
-		};
-		53A9A924575F5129CEF451336FE9BC67 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A7DE803518F59332B70832C871E5F05D /* MGKalman */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D1CA4CBF45EEFB3C158C4BDFB1D258AD /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		58C56D9A21FA0CA0E93DCF429757E1B3 /* Pods-MGKalman_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8E48F43A26F9726AC9E154317931E0BB /* Info.plist */,
-				5D53EDAE55660293BC6E88AC71566B40 /* Pods-MGKalman_Example.modulemap */,
-				2245F283A3CB909A690CB920FF08BBF3 /* Pods-MGKalman_Example-acknowledgements.markdown */,
-				AB999B129C4CF780C56BA8F664584491 /* Pods-MGKalman_Example-acknowledgements.plist */,
-				5FAD4E7861153BF7F359351A90488820 /* Pods-MGKalman_Example-dummy.m */,
-				E79910DC6D15F8F1DE5E7356F2243408 /* Pods-MGKalman_Example-frameworks.sh */,
-				C4F99B4A9E5B2049DFE062E1876E64B7 /* Pods-MGKalman_Example-resources.sh */,
-				6875BC1515951BFB8804A00660806B3E /* Pods-MGKalman_Example-umbrella.h */,
-				76478BFA5BB73B3026A7E96F38435306 /* Pods-MGKalman_Example.debug.xcconfig */,
-				44F06083915369E583044901D15AC67F /* Pods-MGKalman_Example.release.xcconfig */,
+				ADB85ED2B4C00FCA351D0220D0D84A67 /* Info.plist */,
+				DA1842CC5D9CB93974472D0A0997F266 /* Pods-MGKalman_Example.modulemap */,
+				3373CAFB7330F5CFF35BCF1F9D933541 /* Pods-MGKalman_Example-acknowledgements.markdown */,
+				CB9B6F0E762DF60BD6F5D4A40ED13552 /* Pods-MGKalman_Example-acknowledgements.plist */,
+				1E628BF6566E0B89E56C3B3870AFF805 /* Pods-MGKalman_Example-dummy.m */,
+				F9CB021908F228761B05A1BFE470FAD5 /* Pods-MGKalman_Example-frameworks.sh */,
+				714426413BA7A117A70A0D7C457197BD /* Pods-MGKalman_Example-resources.sh */,
+				A35C205910B7EA7BAD8DF48E98F92627 /* Pods-MGKalman_Example-umbrella.h */,
+				4A9F1F6ED699A548815FD9DFFB29D822 /* Pods-MGKalman_Example.debug.xcconfig */,
+				601BB2E62E10783A4F57FB949A5C3789 /* Pods-MGKalman_Example.release.xcconfig */,
 			);
 			name = "Pods-MGKalman_Example";
 			path = "Target Support Files/Pods-MGKalman_Example";
 			sourceTree = "<group>";
 		};
-		771B9067EB72748E73852F767B644C85 /* Support Files */ = {
+		1994CAABA9EE39B6D09DFAD769EEB2AB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C57DA2BA997633371F44CC63AB24B3CE /* Info.plist */,
-				04DA31C7339D6027DD4699ACFF432AA8 /* MGKalman.modulemap */,
-				CFE8CEB7092B5C81D7002C6922FE11DD /* MGKalman.xcconfig */,
-				575B68759CE8DD71D7742DF8F6165C80 /* MGKalman-Private.xcconfig */,
-				64E41C688EB2C1EC8FE355FC284FBFCD /* MGKalman-dummy.m */,
-				D8A7F0DE97D1F75CFD6CFC9CC27109BE /* MGKalman-prefix.pch */,
-				9BCC941129966CB389CB54B2A7D7791C /* MGKalman-umbrella.h */,
+				9D2517DD87AE13F584410AA1DD81901E /* Accelerate.framework */,
+				EC4E7576470528FCB0D6A99C76D32DEB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E2D43EE89384AB26BD4DE62EE906F80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839B7550E3D2788710E43A0D9A6A67A9 /* MGMatrix.framework */,
+				1994CAABA9EE39B6D09DFAD769EEB2AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		425089E80E651391B9C56ABD593491B5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E87304C2942F2BAAAC58A8FA6DF36DE5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		53A9A924575F5129CEF451336FE9BC67 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFA3DC156F447E58565E25C216356DAC /* MGKalman */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		541B789B21482AC6096054FC68555C31 /* MGMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				4568F2D5FEC4321DB9B2C1521E00FD7B /* MGMatrix.h */,
+				F583ECD5770EFF57D75AB2B5CE4F8D62 /* MGMatrix.m */,
+				66CE6EAF8FCABF88BA2B0421FCD4B3A2 /* Support Files */,
+			);
+			path = MGMatrix;
+			sourceTree = "<group>";
+		};
+		66CE6EAF8FCABF88BA2B0421FCD4B3A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5385255676ADB6C7F2E8F565CD8F593 /* Info.plist */,
+				A40726AE6F4CE49E3D8033CE50BE2372 /* MGMatrix.modulemap */,
+				3F888CC762D8C8D0136944400B76C478 /* MGMatrix.xcconfig */,
+				892BC394BC90A1243D3D0C0AC92717B5 /* MGMatrix-dummy.m */,
+				13D8EF80431E48F3A393E2CD9290DEB4 /* MGMatrix-prefix.pch */,
+				A47B18E336AEA71F321DC45121044EF1 /* MGMatrix-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MGKalman";
+			path = "../Target Support Files/MGMatrix";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -197,113 +229,188 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				53A9A924575F5129CEF451336FE9BC67 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				0E1CBDD1AAF3F7F90C00C3926B0AFFB2 /* Targets Support Files */,
+				3E2D43EE89384AB26BD4DE62EE906F80 /* Frameworks */,
+				B2C1807289111391707E61CF833F38E7 /* Pods */,
+				E39EBE41D709FE9E496DD060A12123CA /* Products */,
+				E3457AABF76291F34545821EB3972523 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		829862C66B311AFBDEEC4C9BF4C871BE /* Classes */ = {
+		B2C1807289111391707E61CF833F38E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				470ACDEF6FC4D2AEFF5DE717DD5C5AC9 /* ReplaceMe.m */,
+				541B789B21482AC6096054FC68555C31 /* MGMatrix */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3457AABF76291F34545821EB3972523 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E00EFD2FC7E88BC3F35FD8927C63B47 /* Pods-MGKalman_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E39EBE41D709FE9E496DD060A12123CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				729E5D45F9E9B9AEC9615C0136EAE7E8 /* MGKalman.bundle */,
+				3E2664F5840D5EB6E095BB27928D6799 /* MGKalman.framework */,
+				5E3DC50A0D77BD5B1CA45DF44ABCDD3A /* MGMatrix.bundle */,
+				21EB2B0E5DA5E01A6FEEA0C187E9FA2F /* MGMatrix.framework */,
+				B08A7A26CE5DB567920ACA23864238D3 /* Pods_MGKalman_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87304C2942F2BAAAC58A8FA6DF36DE5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B0B4158437B09353E199784B7BEC696 /* MGKalman.h */,
+				62EA395D897A8CCC0E315B8C539149B6 /* MGKalman.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		A7DE803518F59332B70832C871E5F05D /* MGKalman */ = {
+		EFA3DC156F447E58565E25C216356DAC /* MGKalman */ = {
 			isa = PBXGroup;
 			children = (
-				FC418DA3C6CC40D65FCD034E9C51F96B /* Pod */,
-				771B9067EB72748E73852F767B644C85 /* Support Files */,
+				425089E80E651391B9C56ABD593491B5 /* Pod */,
+				FD3A63E97678C9AAC282E02C0849AAC1 /* Support Files */,
 			);
 			name = MGKalman;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		FD3A63E97678C9AAC282E02C0849AAC1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				A150EA4F4BF1C46C740224619AFA4B44 /* Info.plist */,
+				382A72A65F7C70D57ECE50CA7C7C634D /* MGKalman.modulemap */,
+				43166806EE145A6FF7FC0FE1F1022BC7 /* MGKalman.xcconfig */,
+				F23E0EC2CBE2472D90EFB75BDFA9AA96 /* MGKalman-dummy.m */,
+				B61CDEE23C0AD6AEC2B71D8780ABD452 /* MGKalman-prefix.pch */,
+				ABBABBC6CFB159099DAD34E44D2A91A0 /* MGKalman-umbrella.h */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0831529C7CBB62CF7A6B0EC2971B4CC2 /* MGKalman.bundle */,
-				672D93101DD14D242DFF7A36CAF51FD7 /* MGKalman.framework */,
-				C805BD2F4776CDA4DE2C57691E7A14AD /* Pods_MGKalman_Example.framework */,
-				A01412244083B8537A9EC19CB23DD9BB /* Pods_MGKalman_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FC418DA3C6CC40D65FCD034E9C51F96B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				829862C66B311AFBDEEC4C9BF4C871BE /* Classes */,
-			);
-			path = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGKalman";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22C588F71D685A91BC8D98828A9F4803 /* Headers */ = {
+		271541E6A6A9278B0865AF6B5F5BC0F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98A08A28FC50D4DCE8C6AE0AA036D7C /* MGKalman-umbrella.h in Headers */,
+				A1D71F644880EF948209013C64F2549B /* MGKalman-umbrella.h in Headers */,
+				366DAD5629DAE27E2C351040888225DF /* MGKalman.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAA7AB3442C78D85A2B0A9BBABFD46A4 /* Headers */ = {
+		4762DCEAD956C870AA12FF6CDA236E9E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB050A3C1A51BFD273318DA1A019496 /* Pods-MGKalman_Tests-umbrella.h in Headers */,
+				4FAF4279EB9E09B38CB6FE777FA3C467 /* Pods-MGKalman_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6CDEDCD4B796283B40F44F85E5516AD /* Headers */ = {
+		9B99BB5A6D7338F454A52817C6B03205 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01524E2BE4CAB4F1FA2AA8A72C4B4116 /* Pods-MGKalman_Example-umbrella.h in Headers */,
+				C3B4CDA956A7F39CEB3D3F0F43F32E5A /* MGMatrix-umbrella.h in Headers */,
+				146660721D5F83D49460840DBCEEDA14 /* MGMatrix.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		140267A2C687491582C9ED738D94C59C /* MGKalman */ = {
+		40CC22B3F81ABC8F74443AB87F14E2E6 /* MGKalman */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC139950FC55E928990942F556249D0D /* Build configuration list for PBXNativeTarget "MGKalman" */;
+			buildConfigurationList = 192DABA202FBC4C88ABBF46800ABE4FE /* Build configuration list for PBXNativeTarget "MGKalman" */;
 			buildPhases = (
-				7A68AA921A00F8B8CC3A789B634EF364 /* Sources */,
-				9B8949278A3A01E80B445701D82B5AE2 /* Frameworks */,
-				8035C392D5B9501FF877EB6D6C01C913 /* Resources */,
-				22C588F71D685A91BC8D98828A9F4803 /* Headers */,
+				EDD14C70A5D7F99DFB86827DFB070807 /* Sources */,
+				090E6001ACF2160AD24D0775C2FBFD84 /* Frameworks */,
+				45CC7FD70C996D24E12F3DD5F31CFD87 /* Resources */,
+				271541E6A6A9278B0865AF6B5F5BC0F2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				509A7FBBA88FE2D756446EDD6D65658D /* PBXTargetDependency */,
+				68C8F0E22DBD733504EEE2810945E012 /* PBXTargetDependency */,
+				CF2E8D167E0AC33314A9866F8DD63E3E /* PBXTargetDependency */,
 			);
 			name = MGKalman;
 			productName = MGKalman;
-			productReference = 672D93101DD14D242DFF7A36CAF51FD7 /* MGKalman.framework */;
+			productReference = 3E2664F5840D5EB6E095BB27928D6799 /* MGKalman.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5442E0FFD07ACC65D0109BE82F654B0C /* MGKalman-MGKalman */ = {
+		5E2B16408FC92205F2FE7B540CC06E19 /* Pods-MGKalman_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31DA7BCB4C318BD6CC2823CAC00F47E5 /* Build configuration list for PBXNativeTarget "MGKalman-MGKalman" */;
+			buildConfigurationList = 5404D0B843EC33CC98976249B3A62D7F /* Build configuration list for PBXNativeTarget "Pods-MGKalman_Example" */;
 			buildPhases = (
-				8A6956945265652A60C03E47232F413A /* Sources */,
-				8FFFC95C39A7BB428B399F3221560E14 /* Frameworks */,
-				DF2F58146BAA9B83C41F52071C131A61 /* Resources */,
+				2EF3B0A1D375E712C4255187F311FA76 /* Sources */,
+				28E0F2A1620275F76E9DCF227F6818AE /* Frameworks */,
+				4762DCEAD956C870AA12FF6CDA236E9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1608DC01015E91A44F9BADE6D1BF52BD /* PBXTargetDependency */,
+				931131948C7D1891211CEBA66A0E0790 /* PBXTargetDependency */,
+			);
+			name = "Pods-MGKalman_Example";
+			productName = "Pods-MGKalman_Example";
+			productReference = B08A7A26CE5DB567920ACA23864238D3 /* Pods_MGKalman_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC92C4ADF20E5C4AD0A799884ABFC0A7 /* MGMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F50A7A9E06D538C172416B5851242F /* Build configuration list for PBXNativeTarget "MGMatrix" */;
+			buildPhases = (
+				1224891C658E4C38D586FC3A3045F1DC /* Sources */,
+				2D0AE3A30CCD10B4301F8EBAD04718AF /* Frameworks */,
+				874FE92F3291B0571BE819C98B9442E3 /* Resources */,
+				9B99BB5A6D7338F454A52817C6B03205 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A2AD3D262A7451E981EB1B573491D5 /* PBXTargetDependency */,
+			);
+			name = MGMatrix;
+			productName = MGMatrix;
+			productReference = 21EB2B0E5DA5E01A6FEEA0C187E9FA2F /* MGMatrix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EED8588173ED52DB25C3518A280BBFDE /* MGMatrix-MGMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C3665D0AA837928D060B4E14917955 /* Build configuration list for PBXNativeTarget "MGMatrix-MGMatrix" */;
+			buildPhases = (
+				039BC739C7F34A6EADD4EE4118D367C1 /* Sources */,
+				4273218A7F5DA47B31793224188E26A1 /* Frameworks */,
+				D4F7939F96D89CDA29676828BFFB0CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MGMatrix-MGMatrix";
+			productName = "MGMatrix-MGMatrix";
+			productReference = 5E3DC50A0D77BD5B1CA45DF44ABCDD3A /* MGMatrix.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F06F4F65A1462029BB7274A8B8BC6511 /* MGKalman-MGKalman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C225F0700E7F8BF5F26D9404FF5992A6 /* Build configuration list for PBXNativeTarget "MGKalman-MGKalman" */;
+			buildPhases = (
+				6D8EB1477E1B51B75C55DB1F01A31AFC /* Sources */,
+				15D8AF3754B3BA30E2519826C38D0671 /* Frameworks */,
+				B46D465216CB8E34A2E88585C5C1453A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -311,44 +418,8 @@
 			);
 			name = "MGKalman-MGKalman";
 			productName = "MGKalman-MGKalman";
-			productReference = 0831529C7CBB62CF7A6B0EC2971B4CC2 /* MGKalman.bundle */;
+			productReference = 729E5D45F9E9B9AEC9615C0136EAE7E8 /* MGKalman.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		B7BAE755F2ABD5409E18C7A904B4B70F /* Pods-MGKalman_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D9D3950B5BDAD570DA1D760EBDEDB3C /* Build configuration list for PBXNativeTarget "Pods-MGKalman_Example" */;
-			buildPhases = (
-				8DD0D906A7AC790CCF15DD8D8D025938 /* Sources */,
-				8339C17D5263DFDE6CEB8248EC7B1176 /* Frameworks */,
-				F6CDEDCD4B796283B40F44F85E5516AD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA13D0096B00C333E36BDCDEB6B5960B /* PBXTargetDependency */,
-			);
-			name = "Pods-MGKalman_Example";
-			productName = "Pods-MGKalman_Example";
-			productReference = C805BD2F4776CDA4DE2C57691E7A14AD /* Pods_MGKalman_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E01FE1297B4DD91A5FAFD27A0BAA8D04 /* Pods-MGKalman_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E48ECF140757891499D56C3975DF252 /* Build configuration list for PBXNativeTarget "Pods-MGKalman_Tests" */;
-			buildPhases = (
-				CB9CE82782DBB3EBB7716CFFA38658F5 /* Sources */,
-				66B06003116F934E4B11AEC691B32476 /* Frameworks */,
-				DAA7AB3442C78D85A2B0A9BBABFD46A4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				48D8D1CCDD2B9A4EFE780C062AB74AB0 /* PBXTargetDependency */,
-			);
-			name = "Pods-MGKalman_Tests";
-			productName = "Pods-MGKalman_Tests";
-			productReference = A01412244083B8537A9EC19CB23DD9BB /* Pods_MGKalman_Tests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -367,28 +438,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = E39EBE41D709FE9E496DD060A12123CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				140267A2C687491582C9ED738D94C59C /* MGKalman */,
-				5442E0FFD07ACC65D0109BE82F654B0C /* MGKalman-MGKalman */,
-				B7BAE755F2ABD5409E18C7A904B4B70F /* Pods-MGKalman_Example */,
-				E01FE1297B4DD91A5FAFD27A0BAA8D04 /* Pods-MGKalman_Tests */,
+				40CC22B3F81ABC8F74443AB87F14E2E6 /* MGKalman */,
+				F06F4F65A1462029BB7274A8B8BC6511 /* MGKalman-MGKalman */,
+				AC92C4ADF20E5C4AD0A799884ABFC0A7 /* MGMatrix */,
+				EED8588173ED52DB25C3518A280BBFDE /* MGMatrix-MGMatrix */,
+				5E2B16408FC92205F2FE7B540CC06E19 /* Pods-MGKalman_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8035C392D5B9501FF877EB6D6C01C913 /* Resources */ = {
+		45CC7FD70C996D24E12F3DD5F31CFD87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B815E3BB9BCCFA0A6FAFD89FA2EAB80E /* MGKalman.bundle in Resources */,
+				64A90CD0B4132F36F72D90902116F9A9 /* MGKalman.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF2F58146BAA9B83C41F52071C131A61 /* Resources */ = {
+		874FE92F3291B0571BE819C98B9442E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06900E2291F6FF54A738C2C74AD14DB4 /* MGMatrix.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46D465216CB8E34A2E88585C5C1453A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F7939F96D89CDA29676828BFFB0CEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,97 +485,218 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A68AA921A00F8B8CC3A789B634EF364 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD44A0201C494BDD5DC13BAD2B844073 /* MGKalman-dummy.m in Sources */,
-				0C973FC41B0AE9DC3ADD75FC52DE6B86 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A6956945265652A60C03E47232F413A /* Sources */ = {
+		039BC739C7F34A6EADD4EE4118D367C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DD0D906A7AC790CCF15DD8D8D025938 /* Sources */ = {
+		1224891C658E4C38D586FC3A3045F1DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA34324F3C7CCE2DDC49A62E4CDE2F4 /* Pods-MGKalman_Example-dummy.m in Sources */,
+				19370716CA4DF642826640034BCCE5C6 /* MGMatrix-dummy.m in Sources */,
+				A6B0463B6AF006AB138BC7AF8C91898E /* MGMatrix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB9CE82782DBB3EBB7716CFFA38658F5 /* Sources */ = {
+		2EF3B0A1D375E712C4255187F311FA76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F501AA6913D2959AA694F14037A9125 /* Pods-MGKalman_Tests-dummy.m in Sources */,
+				A8ED76E33E8589F6168D30AC067C9A7A /* Pods-MGKalman_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8EB1477E1B51B75C55DB1F01A31AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD14C70A5D7F99DFB86827DFB070807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26B83AFDB46FB669787454A7C9409C7 /* MGKalman-dummy.m in Sources */,
+				092B0D6B90716C56C5CD9ACD5362AE9E /* MGKalman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48D8D1CCDD2B9A4EFE780C062AB74AB0 /* PBXTargetDependency */ = {
+		12A2AD3D262A7451E981EB1B573491D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MGMatrix-MGMatrix";
+			target = EED8588173ED52DB25C3518A280BBFDE /* MGMatrix-MGMatrix */;
+			targetProxy = FB00D55A64E7726028B2E5C26478B0A0 /* PBXContainerItemProxy */;
+		};
+		1608DC01015E91A44F9BADE6D1BF52BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MGKalman;
-			target = 140267A2C687491582C9ED738D94C59C /* MGKalman */;
-			targetProxy = 1E0C326BBBD1606893FF448D1362796E /* PBXContainerItemProxy */;
+			target = 40CC22B3F81ABC8F74443AB87F14E2E6 /* MGKalman */;
+			targetProxy = 6F177BF3CE3006722313AFD58EE0B171 /* PBXContainerItemProxy */;
 		};
-		509A7FBBA88FE2D756446EDD6D65658D /* PBXTargetDependency */ = {
+		68C8F0E22DBD733504EEE2810945E012 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MGKalman-MGKalman";
-			target = 5442E0FFD07ACC65D0109BE82F654B0C /* MGKalman-MGKalman */;
-			targetProxy = 8518D9BC2AF0BFF2C72F6235735BF352 /* PBXContainerItemProxy */;
+			target = F06F4F65A1462029BB7274A8B8BC6511 /* MGKalman-MGKalman */;
+			targetProxy = 1DFB1438DF07DA4FCD9CCF9496777FE7 /* PBXContainerItemProxy */;
 		};
-		AA13D0096B00C333E36BDCDEB6B5960B /* PBXTargetDependency */ = {
+		931131948C7D1891211CEBA66A0E0790 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MGKalman;
-			target = 140267A2C687491582C9ED738D94C59C /* MGKalman */;
-			targetProxy = D58F2E3829E457732E5AC2EDF34092B5 /* PBXContainerItemProxy */;
+			name = MGMatrix;
+			target = AC92C4ADF20E5C4AD0A799884ABFC0A7 /* MGMatrix */;
+			targetProxy = 3B11567AD8819F9C911D6628EB7C6410 /* PBXContainerItemProxy */;
+		};
+		CF2E8D167E0AC33314A9866F8DD63E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGMatrix;
+			target = AC92C4ADF20E5C4AD0A799884ABFC0A7 /* MGMatrix */;
+			targetProxy = 13E4E1A981A5DC87D134F4683B41B642 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		024F67A82CF03ADD4EA7C8FD4DF1DC3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43166806EE145A6FF7FC0FE1F1022BC7 /* MGKalman.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MGKalman;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		13993E3E3EE576F6662AEDC73BC12F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F888CC762D8C8D0136944400B76C478 /* MGMatrix.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGMatrix/MGMatrix-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGMatrix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGMatrix/MGMatrix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MGMatrix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19E6083889EBB6DA71035327759ABE1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43166806EE145A6FF7FC0FE1F1022BC7 /* MGKalman.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGKalman/MGKalman-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGKalman/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGKalman/MGKalman.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MGKalman;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2825F3C5599A4F050BAF4A72DB570B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601BB2E62E10783A4F57FB949A5C3789 /* Pods-MGKalman_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGKalman_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGKalman_Example/Pods-MGKalman_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MGKalman_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4EA45C090E82DD476E7A0E2336622F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F888CC762D8C8D0136944400B76C478 /* MGMatrix.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGMatrix/MGMatrix-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGMatrix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGMatrix/MGMatrix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MGMatrix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		877E45167194AC92D1279EE0938956CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43166806EE145A6FF7FC0FE1F1022BC7 /* MGKalman.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MGKalman;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -520,16 +728,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		1B3417CABD60CF72EA8E1DA06171C7B8 /* Debug */ = {
+		AD581BC7234EAF511C76D6EB44A9F53C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE3408FC65AD995697B0F967687E76BB /* Pods-MGKalman_Tests.debug.xcconfig */;
+			baseConfigurationReference = 43166806EE145A6FF7FC0FE1F1022BC7 /* MGKalman.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -538,16 +746,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MGKalman_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGKalman/MGKalman-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGKalman/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MGKalman_Tests/Pods-MGKalman_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MGKalman/MGKalman.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MGKalman_Tests;
+				PRODUCT_NAME = MGKalman;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,38 +762,21 @@
 			};
 			name = Debug;
 		};
-		512822CEDD34A9DDE43E2279CA56521A /* Release */ = {
+		AF1F427BA1740C4604A39F49F57E7A5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5904686526972540D6668EA961C8D78A /* Pods-MGKalman_Tests.release.xcconfig */;
+			baseConfigurationReference = 3F888CC762D8C8D0136944400B76C478 /* MGMatrix.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MGKalman_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MGKalman_Tests/Pods-MGKalman_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MGKalman_Tests;
+				PRODUCT_NAME = MGMatrix;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		5E0FCA4D9E67EABFAE1E9BC3A8B002BE /* Debug */ = {
+		CB5B380A25F4D83DEC7C940D21C90DB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76478BFA5BB73B3026A7E96F38435306 /* Pods-MGKalman_Example.debug.xcconfig */;
+			baseConfigurationReference = 4A9F1F6ED699A548815FD9DFFB29D822 /* Pods-MGKalman_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -598,8 +787,9 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MGKalman_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGKalman_Example/Pods-MGKalman_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -614,121 +804,69 @@
 			};
 			name = Debug;
 		};
-		6C56596B4F304847E14653B5F532E15D /* Debug */ = {
+		F68FD24A194C88CE341C6146C8C317D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575B68759CE8DD71D7742DF8F6165C80 /* MGKalman-Private.xcconfig */;
+			baseConfigurationReference = 3F888CC762D8C8D0136944400B76C478 /* MGMatrix.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MGKalman;
+				PRODUCT_NAME = MGMatrix;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		6CCD6CFD376D732CF871DDA4F41CF204 /* Debug */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575B68759CE8DD71D7742DF8F6165C80 /* MGKalman-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MGKalman/MGKalman-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGKalman/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGKalman/MGKalman.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MGKalman;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A4FE6130A4BD09FD5E41282077011AC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575B68759CE8DD71D7742DF8F6165C80 /* MGKalman-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MGKalman;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DE89E72EF6B9FAEDE0EDAA94F0AB4F6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575B68759CE8DD71D7742DF8F6165C80 /* MGKalman-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MGKalman/MGKalman-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGKalman/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGKalman/MGKalman.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MGKalman;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E5ED142F6E50E4A18EDF534B00AD97B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44F06083915369E583044901D15AC67F /* Pods-MGKalman_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MGKalman_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MGKalman_Example/Pods-MGKalman_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MGKalman_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E48ECF140757891499D56C3975DF252 /* Build configuration list for PBXNativeTarget "Pods-MGKalman_Tests" */ = {
+		192DABA202FBC4C88ABBF46800ABE4FE /* Build configuration list for PBXNativeTarget "MGKalman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B3417CABD60CF72EA8E1DA06171C7B8 /* Debug */,
-				512822CEDD34A9DDE43E2279CA56521A /* Release */,
+				AD581BC7234EAF511C76D6EB44A9F53C /* Debug */,
+				19E6083889EBB6DA71035327759ABE1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C3665D0AA837928D060B4E14917955 /* Build configuration list for PBXNativeTarget "MGMatrix-MGMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68FD24A194C88CE341C6146C8C317D5 /* Debug */,
+				AF1F427BA1740C4604A39F49F57E7A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -736,35 +874,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31DA7BCB4C318BD6CC2823CAC00F47E5 /* Build configuration list for PBXNativeTarget "MGKalman-MGKalman" */ = {
+		5404D0B843EC33CC98976249B3A62D7F /* Build configuration list for PBXNativeTarget "Pods-MGKalman_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C56596B4F304847E14653B5F532E15D /* Debug */,
-				A4FE6130A4BD09FD5E41282077011AC1 /* Release */,
+				CB5B380A25F4D83DEC7C940D21C90DB0 /* Debug */,
+				2825F3C5599A4F050BAF4A72DB570B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D9D3950B5BDAD570DA1D760EBDEDB3C /* Build configuration list for PBXNativeTarget "Pods-MGKalman_Example" */ = {
+		76F50A7A9E06D538C172416B5851242F /* Build configuration list for PBXNativeTarget "MGMatrix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E0FCA4D9E67EABFAE1E9BC3A8B002BE /* Debug */,
-				E5ED142F6E50E4A18EDF534B00AD97B4 /* Release */,
+				13993E3E3EE576F6662AEDC73BC12F65 /* Debug */,
+				6F4EA45C090E82DD476E7A0E2336622F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC139950FC55E928990942F556249D0D /* Build configuration list for PBXNativeTarget "MGKalman" */ = {
+		C225F0700E7F8BF5F26D9404FF5992A6 /* Build configuration list for PBXNativeTarget "MGKalman-MGKalman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CCD6CFD376D732CF871DDA4F41CF204 /* Debug */,
-				DE89E72EF6B9FAEDE0EDAA94F0AB4F6F /* Release */,
+				877E45167194AC92D1279EE0938956CB /* Debug */,
+				024F67A82CF03ADD4EA7C8FD4DF1DC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

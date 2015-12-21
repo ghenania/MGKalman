@@ -5,8 +5,3 @@ target 'MGKalman_Example', :exclusive => true do
   pod "MGKalman", :path => "../"
 end
 
-target 'MGKalman_Tests', :exclusive => true do
-  pod "MGKalman", :path => "../"
-
-  
-end

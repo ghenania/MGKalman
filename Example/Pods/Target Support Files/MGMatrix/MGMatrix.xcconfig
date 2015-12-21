@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/MGKalman" "${PODS_ROOT}/Headers/Public"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/MGMatrix" "${PODS_ROOT}/Headers/Public"
 OTHER_LDFLAGS = -framework "Accelerate"
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

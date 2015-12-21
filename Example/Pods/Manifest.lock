@@ -1,5 +1,7 @@
 PODS:
-  - MGKalman (0.1.0)
+  - MGKalman (0.1.0):
+    - MGMatrix (~> 0.2.0)
+  - MGMatrix (0.2.0)
 
 DEPENDENCIES:
   - MGKalman (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MGKalman: 72a5ad25be988bda6becfb03594c4083f6865405
+  MGKalman: 421bf71f23f7011cb924d0ef0328979dd1e3e21b
+  MGMatrix: f163b3b6ab1020b6d1611ae1b7d7ff69c25df898
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

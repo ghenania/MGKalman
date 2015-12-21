@@ -1,0 +1,6 @@
+framework module MGMatrix {
+  umbrella header "MGMatrix-umbrella.h"
+
+  export *
+  module * { export * }
+}

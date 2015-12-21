@@ -1,25 +1,31 @@
 {
   "name": "MGKalman",
   "version": "0.1.0",
-  "summary": "A short description of MGKalman.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MGKalman",
+  "summary": "An efficient and simple implementation of the Kalman filter in Objective C",
+  "description": "MGKalman is an efficient and simple implementation of the Kalman filter in Objective C.",
+  "homepage": "https://github.com/ghenania/MGKalman",
   "license": "MIT",
   "authors": {
     "Mohamed GHENANIA": "mohamed.ghenania@intersection-lab.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MGKalman.git",
+    "git": "https://github.com/ghenania/MGKalman.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "MGKalman": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "Accelerate",
+  "dependencies": {
+    "MGMatrix": [
+      "~> 0.2.0"
     ]
   }
 }

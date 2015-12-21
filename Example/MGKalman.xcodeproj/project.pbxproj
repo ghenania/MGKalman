@@ -22,7 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CBBA858DBB7B100382207D77 /* Pods_MGKalman_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85101AECEC4B488FC3FF4BCD /* Pods_MGKalman_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CBBA858DBB7B100382207D77 /* Pods_MGKalman_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85101AECEC4B488FC3FF4BCD /* Pods_MGKalman_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 		24CB38AC576A3071D7B8E11C /* Pods-MGKalman_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGKalman_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGKalman_Example/Pods-MGKalman_Example.release.xcconfig"; sourceTree = "<group>"; };
 		276F589C72D79AF92688B045 /* Pods-MGKalman_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGKalman_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGKalman_Tests/Pods-MGKalman_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B397DB3E212AA07DE450F7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* MGKalman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MGKalman.app; path = MGKalman_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* MGKalman_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGKalman_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -108,7 +108,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* MGKalman.app */,
+				6003F58A195388D20070C39A /* MGKalman_Example.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -213,7 +213,7 @@
 			);
 			name = MGKalman_Example;
 			productName = MGKalman;
-			productReference = 6003F58A195388D20070C39A /* MGKalman.app */;
+			productReference = 6003F58A195388D20070C39A /* MGKalman_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* MGKalman_Tests */ = {
@@ -515,6 +515,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGKalman/MGKalman-Prefix.pch";
 				INFOPLIST_FILE = "MGKalman/MGKalman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -530,6 +531,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGKalman/MGKalman-Prefix.pch";
 				INFOPLIST_FILE = "MGKalman/MGKalman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
