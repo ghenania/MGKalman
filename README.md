@@ -102,7 +102,7 @@ pod "MGKalman"
 
 ## Author
 
-Mohamed GHENANIA, mohamed.ghenania@intersection-lab.com
+Mohamed GHENANIA, mohamed@fontself.com
 
 ## License
 
